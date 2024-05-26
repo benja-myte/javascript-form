@@ -69,7 +69,7 @@ function validateForm() {
 
     togglePassword.addEventListener('click', function () {
     // Toggle the type attribute
-    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    const type = password2.getAttribute('type') === 'password' ? 'text' : 'password';
     password.setAttribute('type', type);
 
     // Toggle the eye icon
