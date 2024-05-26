@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d8e864534.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <h1>Learn to code by <br> watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+
+        <div class="right">
+
+            <div class="trial-header">
+                Try it free 7 days then $20/mo. thereafter
+            </div>
+
+            <form id="signup-form">
+
+                <i class="fa-solid fa-circle-exclamation alert-one" id="one-alert"></i>
+                <input type="text" id="first-name" placeholder="First Name">
+                <span class="error-message" id="first-name-error">First Name cannot be empty</span>
+
+                <i class="fa-solid fa-circle-exclamation alert-two" id="two-alert"></i>
+                <input type="text" id="last-name" placeholder="Last Name">
+                <span class="error-message" id="last-name-error">Last Name cannot be empty</span>
+
+                <i class="fa-solid fa-circle-exclamation alert-three" id="three-alert"></i>
+                <input type="email" id="email" placeholder="Email Address">
+                <span class="error-message" id="email-error">Looks like this is not an email</span>
+
+                <i class="fa-solid fa-circle-exclamation alert-four" id="four-alert"></i>
+                <input type="password" id="password" placeholder="Password">
+                <span class="error-message" id="password-error">Password cannot be empty</span>
+
+                <button type="submit">CLAIM YOUR FREE TRIAL</button>
+
+                <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
